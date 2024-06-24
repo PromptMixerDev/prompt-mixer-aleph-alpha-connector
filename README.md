@@ -1,52 +1,30 @@
-# Simple Echo Connector
+# Aleph Alpha Connector
 
-This repository contains a simplified connector that uses an echo function to simulate responses from a chat model. It's designed to mimic the behavior of more complex connectors (like those interfacing with models such as Ollama), but without the need for external API calls. This can be particularly useful for testing, development, or educational purposes.
+The AlephAlpha Connector provides an interface to utilize AlephAlpha's AI models within Prompt Mixer applications. The connector will complete a prompt using a specific model.
 
 ## Features
 
-- Echo function that simulates chat responses
-- Mapping of chat completions to a standardized response format
-- Simple integration into existing TypeScript projects
-- Configurable to simulate different model types
+- Generate text completion using Aleph Alpha Connector
+- Pass prompts and settings to the Aleph Alpha API with just a few clicks
+- Output is displayed directly in Prompt Mixer
 
 ## Installation
 
-Before installing this connector, ensure you have [Node.js](https://nodejs.org/) installed on your system.
+To install:
 
-1. **Clone the repository**
+- In Prompt Mixer go to Settings > Connectors > Install Plugin
+- Go to Settings > OpenAI to configure your API key
 
-```bash
-git clone https://github.com/PromptMixerDev/prompt-mixer-sample-connector.git
-cd prompt-mixer-sample-connector
-```
+## Usage
 
-2. **Install dependencies**
+After installing and configuring your API key, you can start using any Amazon Bedrock model through the assistant panel in Prompt Mixer.
 
-```bash
-npm install
-```
-
-This will install all necessary dependencies, including TypeScript and any types required for development.
-
-## Configuration
-
-The `config` object can be adjusted to suit your needs. It's located in `config.ts`. By default, it might include placeholders for various configurations. Ensure you review and update it as necessary for your project.
+Refer to the Amazon Bedrock documentation for details on how to format prompts for each model.
 
 ## Contributing
 
-Contributions are welcome! If you have improvements or bug fixes, please follow these steps:
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -am 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Pull requests and issues welcome! Let me know if you have any problems using the connector or ideas for improvements.
 
 ## License
 
-This project is licensed under the MIT License
-
-## Acknowledgments
-
-- This project is inspired by the need for simple, mock connectors in development environments.
-- Thanks to all contributors and users for their interest and feedback.
+MIT

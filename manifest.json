@@ -1,0 +1,11 @@
+{
+	"id": "prompt-mixer-aleph-alpha-connector",
+	"name": "Aleph Alpha Mixer Connector",
+	"version": "1.0.0",
+	"minAppVersion": "0.1.0",
+	"description": "The AlephAlpha Connector provides an interface to utilize AlephAlpha's AI models within Prompt Mixer applications. It does not connect to any external service.",
+	"author": "Prompt Mixer",
+	"authorUrl": "",
+	"fundingUrl": "",
+	"isDesktopOnly": true
+}
